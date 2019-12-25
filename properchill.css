@@ -1,0 +1,246 @@
+/*
+A Proper Chill CSS Library by Samuel Kaiser
+
+Quick to learn, simple to extend.
+
+Version 1.0
+
+Table of Contents
+*****************
+1. Margins
+    i.   Margin 0 Auto
+    ii.  Top Margins
+    iii. Bottom Margins
+    iv.  Left Margins
+    v.   Right Margins
+
+2. Paddings
+    i.   Top Padding
+    ii.  Bottom Padding
+    iii. Left Padding
+    iv.  Right Padding
+
+3. Fonts
+    i.   Alignments
+    ii.  Sizes
+*/
+
+/* Section 1: Margins */
+/* Margin support includes 5px to 25px in 5px increments. Easily extended, just follow the pattern. */
+
+/* i. Margin 0 Auto */
+.m0a{
+    margin: 0 auto;
+}
+
+/* ii. Top Margin */
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+
+/* iii. Bottom Margin */
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+
+/* iv. Left Margin */
+.ml-5{
+    margin-left: 5px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.ml-25{
+    margin-left: 25px;
+}
+
+/* v. Right Margin */
+.mr-5{
+    margin-right: 5px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mr-25{
+    margin-right: 25px;
+}
+
+/* Section 2: Padding */
+/* Padding support includes 5px to 25px out of the box.  This is easily extended, just follow the pattern. */
+
+/* i. Top Padding */
+.pt-5{
+    padding-top: 5px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-25{
+    padding-top: 25px;
+}
+
+/* ii. Bottom Padding */
+.pb-5{
+    padding-bottom: 5px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pb-25{
+    padding-bottom: 25px;
+}
+
+/* iii. Left Padding */
+.pl-5{
+    padding-left: 5px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.pl-25{
+    padding-left: 25px;
+}
+
+/* iv. Right Padding */
+.pr-5{
+    padding-right: 5px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.pr-15{
+    padding-right: 15px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.pr-25{
+    padding-right: 25px;
+}
+
+/* Section 3: Fonts/Text */
+
+/* i. Alignment */ 
+.al{
+    text-align: left;
+}
+.ar{
+    text-align: right;
+}
+.ac{
+    text-align: center;
+}
+
+/* ii. Sizes */
+/* Font size support ranges from 12 to 48 in 2px increments.  This is easily extended, just follow the pattern. */
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-28{
+    font-size: 28px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-34{
+    font-size: 34px;
+}
+.fs-36{
+    font-size: 36px;
+}
+.fs-38{
+    font-size: 38px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-42{
+    font-size: 42px;
+}
+.fs-44{
+    font-size: 44px;
+}
+.fs-46{
+    font-size: 46px;
+}
+.fs-48{
+    font-size: 48px;
+}
