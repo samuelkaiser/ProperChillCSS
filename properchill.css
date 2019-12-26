@@ -23,6 +23,13 @@ Table of Contents
 3. Fonts
     i.   Alignments
     ii.  Sizes
+
+4. Positioning
+    i.   Positioning Type
+    ii.  Top Position
+    iii. Bottom Position
+    iv.  Left Position
+    v.   Right Position
 */
 
 /* Section 1: Margins */
@@ -243,4 +250,100 @@ Table of Contents
 }
 .fs-48{
     font-size: 48px;
+}
+
+/* Section 4: Positioning */
+/* Position support includes absolute, relative, and fixed. */
+/* Top, bottom, left, and right include 0-25px in 5px increments. */
+/* Example usage: <div class="pos-a t-0"></div> for absolute positioning 0 from the top. */
+
+/* i. Position Type */
+.pos-a{
+    position: absolute;
+}
+.pos-r{
+    position: relative;
+}
+.pos-f{
+    position: fixed;
+}
+
+/* ii. Top Position */
+.t-0{
+    top: 0;
+}
+.t-5{
+    top: 5px;
+}
+.t-10{
+    top: 10px;
+}
+.t-15{
+    top: 15px;
+}
+.t-20{
+    top: 20px;
+}
+.t-25{
+    top: 25px;
+}
+
+/* iii. Bottom Position */
+.b-0{
+    bottom: 0;
+}
+.b-5{
+    bottom: 5px;
+}
+.b-10{
+    bottom: 10px;
+}
+.b-15{
+    bottom: 15px;
+}
+.b-20{
+    bottom: 20px;
+}
+.b-25{
+    bottom: 25px;
+}
+
+/* iv. Left Position */
+.l-0{
+    left: 0;
+}
+.l-5{
+    left: 5px;
+}
+.l-10{
+    left: 10px;
+}
+.l-15{
+    left: 15px;
+}
+.l-20{
+    left: 20px;
+}
+.l-25{
+    left: 25px;
+}
+
+/* v. Right Position */
+.r-0{
+    right: 0;
+}
+.r-5{
+    right: 5px;
+}
+.r-10{
+    right: 10px;
+}
+.r-15{
+    right: 15px;
+}
+.r-20{
+    right: 20px;
+}
+.r-25{
+    right: 25px;
 }
